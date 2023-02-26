@@ -33,7 +33,7 @@ function Form() {
             <IoMdSend className='w-8 h-8'/>
             Enviar
           </button>
-          <input type='hidden' name='_next' value='https://www.linkedin.com/in/mariano-rolet-69a65b259/'/>
+          <input type='hidden' name='_next' value='https://mariano-rolet-dev-portfolio.vercel.app/'/>
           <input type='hidden' name='_captcha' value='false'/>
         </div>
       </form>
