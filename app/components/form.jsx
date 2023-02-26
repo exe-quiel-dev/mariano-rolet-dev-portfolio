@@ -6,7 +6,7 @@ function Form() {
 
   return (
     <div>
-      <form action='https://formsubmit.co/exe.quiel.developer@outlook.com' method='POST' id="formulario" className="space-y-3 text-black">
+      <form action='https://formsubmit.co/e7b5af2a1ecef7417206ae4198c5a369 ' method='POST' id="formulario" className="space-y-3 text-black">
         <div className="flex flex-col space-y-2">
           <label htmlFor="nombre" className="font-regular font-medium">Nombre:</label>
           <input id="nombre" type="text" name="nombre" placeholder="Nombre Remitente" className="border border-gray-300 px-3 py-2 rounded-lg" />
