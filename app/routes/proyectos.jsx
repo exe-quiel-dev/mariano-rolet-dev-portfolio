@@ -13,6 +13,7 @@ import PrjCard from "~/components/prjCard"
 import thumbViajesNode1 from '../../public/img/agencia-viajes-node-index1.jpg'
 import thumbViajesNode2 from '../../public/img/agencia-viajes-node-index2.jpg'
 import thumbViajesNode3 from '../../public/img/agencia-viajes-node-index3.jpg'
+import thumbgrowshop from '../../public/img/growshop-vite-react-router-dom.jpg'
 import thumbViajesNodeTestimoniales from '../../public/img/agencia-viajes-node-testimoniales.jpg'
 import thumbViajesNodeViajes from '../../public/img/agencia-viajes-node-viajes.jpg'
 import thumbCrmReact from '../../public/img/crm-clientes-react-clientes.jpg'
@@ -38,6 +39,7 @@ function Proyectos() {
     <>
       <h1 className="font-semibold text-4xl uppercase text-violet-500 transition-all my-10 text-center">Mis Proyectos</h1>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center p-10 gap-5">
+        <Proyecto alt='imagen proyecto buscador autos' src={thumbgrowshop} link='https://growshop-frontend-vite.vercel.app/' />
         <Proyecto alt='imagen proyecto buscador autos' src={thumbBuscador} link='https://proyecto-buscador-autos-exequiel-dev.netlify.app/' />
         <Proyecto alt='imagen proyecto buscador recetas' src={thumbRecetas} link='https://proyecto-buscador-recetas-exe-dev.netlify.app/' />
         <Proyecto alt='imagen proyecto gastos semanales' src={thumbGastos} link='https://proyecto-gastos-semanales-exequieldev.netlify.app/' />
