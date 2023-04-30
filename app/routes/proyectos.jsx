@@ -21,6 +21,8 @@ import thumbCrmReactEditar from '../../public/img/crm-clientes-react-editar.jpg'
 import thumbCrmJs from '../../public/img/crm-clientes-js-clientes.jpg'
 import thumbCrmJs2 from '../../public/img/crm-clientes-js-editar.jpg'
 import thumbCrmJs3 from '../../public/img/crm-clientes-js-nuevo.jpg'
+import thumbArtistGallery from '../../public/img/artist-gallery-thumb.jpg'
+import thumbGomeria from '../../public/img/thumb-gomeria.jpg'
 // import thumb from '../../public/img/proyecto-.jpg'
 // import thumb from '../../public/img/proyecto-.jpg'
 // import thumb from '../../public/img/proyecto-.jpg'
@@ -39,16 +41,18 @@ function Proyectos() {
     <>
       <h1 className="font-semibold text-4xl uppercase text-violet-500 transition-all my-10 text-center">Mis Proyectos</h1>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center p-10 gap-5">
-        <Proyecto alt='imagen proyecto buscador autos' src={thumbgrowshop} link='https://growshop-frontend-vite.vercel.app/' />
+        <Proyecto alt='imagen proyecto portfolio fotografo' src={thumbArtistGallery} link='https://artist-portfolio-one.vercel.app/' />
+        <Proyecto alt='imagen proyecto growshop' src={thumbgrowshop} link='https://growshop-frontend-vite.vercel.app/' />
+        <Proyecto alt='imagen proyecto gomeria' src={thumbGomeria} link='https://gomeria-react-vite.vercel.app/' />
         <Proyecto alt='imagen proyecto buscador autos' src={thumbBuscador} link='https://proyecto-buscador-autos-exequiel-dev.netlify.app/' />
         <Proyecto alt='imagen proyecto buscador recetas' src={thumbRecetas} link='https://proyecto-buscador-recetas-exe-dev.netlify.app/' />
         <Proyecto alt='imagen proyecto gastos semanales' src={thumbGastos} link='https://proyecto-gastos-semanales-exequieldev.netlify.app/' />
         <Proyecto alt='imagen proyecto enviar email' src={thumbMail} link='https://proyecto-enviar-email-exequiel-dev.netlify.app/' />
         <Proyecto alt='imagen proyecto control gastos' src={thumbControlGastos} link='https://control-gastos-react-vite-exe-dev.netlify.app/' />
-        <Proyecto alt='imagen proyecto buscador autos' src={thumbPrestamos} link='https://calculador-prestamos-react-vite.netlify.app/' />
-        <Proyecto alt='imagen proyecto buscador autos' src={thumbPixabay} link='https://proyecto-pixabay-imagenes-exe-dev.netlify.app/' />
-        <Proyecto alt='imagen proyecto buscador autos' src={thumbCursos} link='https://proyecto-cursos-exequiel-dev.netlify.app/' />
-        <Proyecto alt='imagen proyecto buscador autos' src={thumbPacientes} link='https://proyecto-veterinaria-exequiel-dev.netlify.app/' />
+        <Proyecto alt='imagen proyecto calculador prestamos react' src={thumbPrestamos} link='https://calculador-prestamos-react-vite.netlify.app/' />
+        <Proyecto alt='imagen proyecto buscador imagenes pixabay' src={thumbPixabay} link='https://proyecto-pixabay-imagenes-exe-dev.netlify.app/' />
+        <Proyecto alt='imagen proyecto cursos' src={thumbCursos} link='https://proyecto-cursos-exequiel-dev.netlify.app/' />
+        <Proyecto alt='imagen proyecto veterinaria' src={thumbPacientes} link='https://proyecto-veterinaria-exequiel-dev.netlify.app/' />
       </div>
 
       <PrjCard
